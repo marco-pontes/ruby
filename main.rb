@@ -36,6 +36,34 @@ class Main
     flow_control()
   end
 
+  def flow_control()
+    age = rand(30)
+    if(age > 18)
+      puts "age > 18"
+    end
+    if age > 18
+      puts "age > 18"
+    end
+
+    unless age > 18
+      puts "age less than 18"
+    end
+    if age > 18
+      puts "this is the if. Age greater than 18"
+    else
+      puts "this is the else. Age less than 18"
+    end
+
+    unless age > 18
+      puts "this is the unless. Age less than 18"
+    else
+      puts "this is the else. Age greater than 18"
+    end
+
+    type = age > 18 ? 'adult' : 'child'
+    puts type
+  end
+
   def basics
     10.times do
       print "teste \n"
@@ -220,9 +248,6 @@ STRING_TEST
     puts users['Tamiris']
   end
 
-  def flow_control()
-
-  end
 end
 
 
