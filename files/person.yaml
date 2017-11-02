@@ -1,0 +1,4 @@
+--- !ruby/object:User
+name: Marco
+age: 29
+gender: Male

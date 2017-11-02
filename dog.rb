@@ -16,6 +16,10 @@ class Dog < Pet
     end
   end
 
+  def talk()
+    return "Woof"
+  end
+
   def say(a, b, c)
     print a + " Woof " + b + " Woof " + c
     puts
